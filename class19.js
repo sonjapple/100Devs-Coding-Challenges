@@ -1,28 +1,28 @@
 // ELOQUENT JAVASCRIPT CHAPTER 2
 
-//Looping a Triangle
+// Looping a Triangle
 
-// for(let number = "#"; number.length < 7; number+="#"){
-//   console.log(number)
-// }
+for(let number = "#"; number.length < 7; number+="#"){
+  console.log(number)
+}
 
 
 //FizzBuzz
 
-// function fizzBuzz(num){
-//   for(let i = 1; i <= num; i++){
-//     if(i % 3 === 0 && i % 5 === 0){
-//       console.log("FizzBuzz")
-//     }else if(i % 3 === 0){
-//       console.log("Fizz")
-//     }else if(i % 5 === 0){
-//       console.log("Buzz")
-//     }else{
-//       console.log(i)
-//     }
-//   }
-// }
-// fizzBuzz(100)
+function fizzBuzz(num){
+  for(let i = 1; i <= num; i++){
+    if(i % 3 === 0 && i % 5 === 0){
+      console.log("FizzBuzz")
+    }else if(i % 3 === 0){
+      console.log("Fizz")
+    }else if(i % 5 === 0){
+      console.log("Buzz")
+    }else{
+      console.log(i)
+    }
+  }
+}
+fizzBuzz(20)
 
 
 //Chessboard
@@ -79,6 +79,7 @@ isEven(-2) //??
 
 //Bean Counting
 
+//Part 1
 function countBs(str){
   let count = 0
   for(let i = 0; i <= str.length-1; i++){
@@ -89,4 +90,19 @@ function countBs(str){
   return count
 }
 console.log(countBs("ButterBall"))
+
+//Part 2
+function countChar(str, checkChar){
+  let count = 0
+  for(let i = 0; i <= str.length-1; i++){
+    //(str[i]) === checkChar) && (count += 1)
+    if(str[i] === checkChar){
+      count += 1
+    }
+  }
+  return count
+}
+
+console.log(countChar("kakkerlak", "k"))
+//Ps. kakkerlak (also known as kokkerot) is cockroach in Afrikaans :D
 
