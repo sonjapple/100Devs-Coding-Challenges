@@ -1,56 +1,3 @@
-// THE JSWAY CHAPTER 7
-
-//Musketeers
-
-// const musketeers = ["Athos", "Porthos", "Aramis"]
-
-// for(let i = 0; i < musketeers.length; i++){
-//   console.log(musketeers[i])
-// }
-// musketeers.unshift("D'Artagnan")
-// musketeers.forEach(musketeer => {
-//   console.log(musketeer)
-// })
-// musketeers.pop()
-// for(const musketeer of musketeers){
-//   console.log(musketeer)
-// }
-
-
-//Sum of Values
-
-// const values = [3, 11, 7, 2, 9, 10]
-
-// let sum = 0
-
-// for(let i = 0; i < values.length; i++){
-//   sum += values[i]
-// }
-// console.log(sum)
-
-
-//Array Maximum
-
-const values = [3, 11, 7, 2, 9, 10]
-
-console.log(Math.max(...values))
-
-
-
-//List of Words
-
-// let userWord = prompt("Type in a word")
-
-// let words = ['Hello', 'World', 'Out', 'There']
-
-// if(userWord === 'stop'){
-//   words.forEach(word => console.log(word))
-// }else{
-//   prompt("Type in a word")
-// }
-
-
-
 // ELOQUENT JAVASCRIPT CHAPTER 2
 
 //Looping a Triangle
@@ -102,3 +49,38 @@ for (let y = 0; y < size; y++) {
 }
 console.log(board)
 
+
+//ELOQUENT JAVASCRIPT CHAPTER 3
+
+//Minimum
+function min(a, b){
+  if(a < b){
+    console.log(a)
+  }else{
+    console.log(b)
+  }
+}
+min(10, -4)
+
+//Recursion
+
+function isEven(num){
+  if(num % 2 === 0){
+    console.log(true)
+  }else if(num % 2 != 0){
+    console.log(false)
+  }else{
+    console.log(isEven - 2)
+  }
+}
+isEven(50)
+isEven(75)
+isEven(-2) //??
+
+//Bean Counting
+
+function countBs(str){
+  for(let i = 0; i < str.length; i++){
+    
+  }
+}
