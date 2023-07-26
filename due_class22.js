@@ -36,7 +36,6 @@ const values = [3, 11, 7, 2, 9, 10]
 console.log(Math.max(...values))
 
 
-
 //List of Words
 
 // let userWord = prompt("Type in a word")
@@ -48,3 +47,22 @@ console.log(Math.max(...values))
 // }else{
 //   prompt("Type in a word")
 // }
+
+
+
+// THE JSWAY CHAPTER 6 - OBJECTS
+
+//Adding Character Experience
+
+//Modeling a Dog
+
+//Modeling a Circle
+
+//Modeling a Bank Account
+
+
+
+//JAVASCRIPT.INFO - ARRAY METHODS
+
+
+//ELOQUENT JAVASCRIPT CHAPTER 4 - OBJECTS AND ARRAYS
