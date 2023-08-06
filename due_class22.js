@@ -337,13 +337,13 @@
 
 
 //Create keyed object from array
-let users = [
-  {id: 'john', name: "John Smith", age: 20},
-  {id: 'ann', name: "Ann Smith", age: 24},
-  {id: 'pete', name: "Pete Peterson", age: 31},
-]
+// let users = [
+//   {id: 'john', name: "John Smith", age: 20},
+//   {id: 'ann', name: "Ann Smith", age: 24},
+//   {id: 'pete', name: "Pete Peterson", age: 31},
+// ]
 
-let usersById = groupById(users)
+// let usersById = groupById(users)
 
 // function groupById(array){
 //   return array.reduce((obj, value) => {
@@ -352,12 +352,13 @@ let usersById = groupById(users)
 //   }, {})
 // }
 
-function groupById(array){
-  let result = {}
-  array.forEach((item) =>result[item.id] = item )
-  return result
-}
-console.log(usersById)
+// function groupById(array){
+//   let result = {}
+//   array.forEach((item) =>result[item.id] = item )
+//   return result
+// }
+
+// console.log(usersById)
 
 
 //ELOQUENT JAVASCRIPT CHAPTER 4 - OBJECTS AND ARRAYS
