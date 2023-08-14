@@ -359,6 +359,3 @@
 // }
 
 // console.log(usersById)
-
-
-//ELOQUENT JAVASCRIPT CHAPTER 4 - OBJECTS AND ARRAYS
